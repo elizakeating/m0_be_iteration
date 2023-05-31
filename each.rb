@@ -6,6 +6,10 @@
 # Use the each method to print out a complete sentence stating the weather using the Array below:
 weather_options = ["sunny", "snowy", "freezing", "partly cloudy", "drizzly"]
 
+weather_options.each do |weather_option|
+  puts "The weather outside is #{weather_option}."
+end
+
 # Challenge 2
 # Use a ruby method to organize the names in alphabetical order
 # Then use the each method to print out a greeting for each person
