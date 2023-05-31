@@ -15,6 +15,8 @@ end
 # Then use the each method to print out a greeting for each person
 names = ["Janet", "Alfonso", "Aaron", "Stephanie", "Tanner", "Robert", "Justin"]
 
-names.sort
+names.sort.each do |name|
+  puts "Hello, #{name}, have a nice day!"
+end
 
 # Record yourself live-coding and talking through either Challenge 1 or 2. The recording doesn't have to be the first time you are solving the problem. Use technical vocabulary and explain each part to demonstrate your understanding! Share the link to your video in your small group channel.
